@@ -1,0 +1,45 @@
+$color-red-1: #EB273E;
+$color-white-1: #FFFFFF;
+$color-purple-0: #A48FE2;
+$color-purple-1: #462F8C;
+$color-purple-2: #221549;
+$color-purple-3: #66020F;
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: $color-purple-3;
+    font-family: "Inter", sans-serif;
+}
+
+.details-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    min-width: 40rem;
+}
+
+details {
+    border-radius: .3rem;
+    padding: 1.8rem;
+    border-left: .4rem solid $color-purple-1;
+    background: $color-purple-2;
+    color: $color-white-1;
+
+    summary {
+        font-weight: 400;
+    }
+
+    p {
+        font-weight: 400;
+        color: $color-purple-0;
+        padding-left: 1rem;
+        margin: .4rem 0 0 0;
+    }
+}

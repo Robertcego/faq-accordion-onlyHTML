@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #66020F;
+  font-family: "Inter", sans-serif;
+}
+
+.details-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  min-width: 40rem;
+}
+
+details {
+  border-radius: 0.3rem;
+  padding: 1.8rem;
+  border-left: 0.4rem solid #462F8C;
+  background: #221549;
+  color: #FFFFFF;
+}
+details summary {
+  font-weight: 400;
+}
+details p {
+  font-weight: 400;
+  color: #A48FE2;
+  padding-left: 1rem;
+  margin: 0.4rem 0 0 0;
+}
+
+/*# sourceMappingURL=style.css.map */
